@@ -12,6 +12,9 @@
            fetch="https://github.com/"
            review="gerrit.aicp-rom.com"
            revision="mm6.0" />
+  <remote name="mine"
+           fetch="https://github.com/"
+           revision="mm6.0" />
 
   <remote  name="cm"
            fetch="https://github.com/"
@@ -337,7 +340,7 @@
   <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="packages/services/Telecomm" name="AICP/packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="system/core" name="AICP/system_core" groups="pdk" remote="aicp" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="vendor/aicp" name="jmcollis/vendor_aicp" remote="mine" />
   <project path="vendor/cmsdk" name="AICP/vendor_cmsdk" remote="aicp" />
   <!-- END AICP -->
 
